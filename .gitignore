@@ -1,1 +1,25 @@
+# macOS
 .DS_Store
+._*
+
+# Secrets
+.env
+.env.*
+
+# Local scratch and packaging
+*.zip
+*.log
+tmp/
+scratch/
+
+# Generated media from test runs
+*.mp4
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Editors
+.vscode/
+.idea/
